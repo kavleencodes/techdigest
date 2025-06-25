@@ -35,7 +35,7 @@ const TrendingNews = () => {
           </a>
         ))}
       </div>
-      {articles.length % 6 === 0 && (
+      {articles.length % 9 === 0 && (
         <div className="text-center mt-8">
           <button
             onClick={() => setPage(prev => prev + 1)}

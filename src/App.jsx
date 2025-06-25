@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import TrendingNews from "./components/TrendingNews";
 import TrendingRepos from "./components/TrendingRepos";
 import DevJokes from "./components/DevJokes";
+import Footer from "./components/Footer";
 
 function App() {
   
@@ -29,6 +30,7 @@ function App() {
           <TrendingNews/>
           <TrendingRepos/>
           <DevJokes/>
+          <Footer/>
 
           
         </div>

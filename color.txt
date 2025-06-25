@@ -1,0 +1,65 @@
+🌞 Light Theme — "Clean Code"
+Element	Color	Description
+Background	#f4f7fa	Very light gray for low strain
+Card Background	#ffffff	Clean and simple cards
+Primary Text	#1f2937	Charcoal black – ideal for readability
+Accent Blue	#3b82f6	Bright blue – modern and dev-like
+Highlight Yellow	#facc15	Used for callouts or badges
+Button Hover	#2563eb	Deeper blue for interactions
+Secondary Text	#6b7280	Muted gray – ideal for timestamps/sources
+
+
+
+
+🌘 Dark Theme — "Night Commit"
+Element	Color	Description
+Background	#0f172a	Deep navy blue – calming, techy
+Card Background	#1e293b	Slightly elevated, subtle depth
+Primary Text	#f1f5f9	Off-white – gentle on the eyes
+Accent Blue	#3b82f6	Bright pop – links, buttons
+Highlight Yellow	#facc15	Adds energy to jokes/highlights
+Secondary Text	#94a3b8	Dimmed gray – for metadata
+Borders / Shadows	#334155	Soft borders between elements
+
+
+
+techdigest/
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── assets/                # Static files like images, logos, icons
+│   │   └── logo.svg
+│
+│   ├── components/            # Reusable UI components
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── NewsCard.jsx
+│   │   ├── RepoCard.jsx
+│   │   ├── JokeBox.jsx
+│   │   └── Footer.jsx
+│
+│   ├── sections/              # Full page sections using components
+│   │   ├── NewsFeed.jsx
+│   │   ├── GitHubTrends.jsx
+│   │   ├── DevJoke.jsx
+│   │   └── Newsletter.jsx
+│
+│   ├── context/               # ThemeContext or GlobalContext (light/dark mode)
+│   │   └── ThemeContext.jsx
+│
+│   ├── styles/                # All your CSS/Tailwind config or SCSS
+│   │   └── global.css         # Custom styles or overrides
+│
+│   ├── utils/                 # Helper functions / API calls
+│   │   ├── fetchNews.js
+│   │   ├── fetchRepos.js
+│   │   └── fetchJoke.js
+│
+│   ├── App.jsx
+│   ├── index.js
+│   └── theme.js               # Optional: centralized theme palette (for styled-components or CSS variables)
+│
+├── tailwind.config.js         # If using Tailwind
+├── package.json
+└── README.md
